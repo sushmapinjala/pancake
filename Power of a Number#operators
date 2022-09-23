@@ -1,0 +1,9 @@
+#Power of a Number
+x=int(input())
+n=int(input())
+print(pow(x,n))
+Sample Input:
+2
+3
+Sample Output:
+8

@@ -1,0 +1,11 @@
+Fencing the ground
+l=int(input())
+b=int(input())
+print(f'Required length is {2*(l+b)} m')
+print(f'Required quantity of carpet is {l*b} sqm')
+SAMPLE  INPUT:
+50
+20
+SAMPLE OUTPUT:
+Required length is 140 m
+Required quantity of carpet is 1000 sqm

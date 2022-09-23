@@ -1,0 +1,17 @@
+#Simple Interest
+p=int(input())
+t=int(input())
+r=float(input())
+form=(p*t*r)/100
+print('%.2f'%form)
+Sample Input:
+
+15000
+
+2
+
+2.8
+
+Sample Output:
+
+840.00

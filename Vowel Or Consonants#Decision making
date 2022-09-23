@@ -1,0 +1,14 @@
+#Vowel Or Consonants
+v=input()
+chr='a','e','i','o','u'
+if(v>='a' and v<='z'):
+    if(v in chr):
+        print('vowel')
+    else:
+        print('consonant')
+else:
+    print('Not an alphabet')
+Sample Input: 
+a 
+Sample Output: 
+Vowel

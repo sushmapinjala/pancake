@@ -1,0 +1,26 @@
+#Grading System
+a=int(input())
+if a==100:
+    print("S")
+elif a>=90 and a<=100:
+    print("A")
+elif(a<=90 and a>=80):
+    print("B")
+elif a<=80 and a>=70:
+    print("C")
+elif a<=70 and a>=60:
+    print("D")
+elif a<=60 and a>=50:
+    print("E")
+elif a<=50 and a>=40:
+    print("F")
+else:
+    print("invalid input")
+Sample Input 1:
+85
+sample Output 1:
+B
+Sample Input 2:
+850
+Sample Output 2
+Invalid Input

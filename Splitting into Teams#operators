@@ -1,0 +1,16 @@
+#Splitting into Teams
+s=int(input())
+t=int(input())
+h=s//t
+f=s%t
+print('The number of students in each team is', h, 'and left out is', f)
+
+Sample Input :
+
+60 
+
+8
+
+SAMPLE OUTPUT:
+
+The number of students in each team is 7 and left out is 4

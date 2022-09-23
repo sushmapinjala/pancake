@@ -1,0 +1,18 @@
+#Area Calculation
+a=int(input())
+l=int(input())
+b=int(input())
+r=float(input())
+pi=3.14
+print(a**2)
+print(l*b)
+print('%.2f'%(3.14*r*r))
+Sample Input: 
+5
+5
+4
+2.0
+Sample Output: 
+25
+20
+12.56

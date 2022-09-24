@@ -1,0 +1,30 @@
+#Fee Collection
+
+x=str(input("Enter the student type "))
+if (x=="MSDS"):
+    TF=float(input("Enter tuition fee "))
+    BF=float(input("Enter bus fee "))
+    print(f"The fees to be paid by the student is Rs.{'%.2f' %(TF+BF)}")
+elif (x=="MSH"):
+    TF=float(input("Enter tuition fee "))
+    HF=float(input("Enter hostel fee "))
+    print(f"The fees to be paid by the student is Rs.{'%.2f' %(TF+HF)}")
+elif (x=="MGSDS"):
+    TF=float(input("Enter tuition fee "))
+    BF=float(input("Enter bus fee "))
+    print(f"The fees to be paid by the student is Rs.{'%.2f' %((1.5*TF)+BF)}")
+elif (x=="MGSH"):
+    TF=float(input("Enter tuition fee "))
+    HF=float(input("Enter hostel fee "))
+    print(f"The fees to be paid by the student is Rs.{'%.2f' %((1.5*TF)+HF)}")
+else:
+    print('invalid input')
+    
+Sample Input and Output:
+Enter the student type
+MSH
+Enter tuition fee
+40000
+Enter hostel fee
+50000
+The fees to be paid by the student is Rs.90000.00
